@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2c5c45e6-a529-4899-ad6f-9e0094419861" ChangeDateTime="12/17/2021 11:44:25">
+    <Property Name="ElementName" Value="[Strixhaven].[Colleges].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[Strixhaven].[Colleges]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CollegeID" />
+  </Operation>
+</Operations>
