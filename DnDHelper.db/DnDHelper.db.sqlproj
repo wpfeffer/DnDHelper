@@ -11,7 +11,7 @@
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>DnDHelper.db</RootNamespace>
+    <RootNamespace>DnDHelper</RootNamespace>
     <AssemblyName>DnDHelper.db</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
@@ -44,13 +44,13 @@
     <NonTransactedFileStreamAccess>OFF</NonTransactedFileStreamAccess>
     <TargetRecoveryTimePeriod>60</TargetRecoveryTimePeriod>
     <TargetRecoveryTimeUnit>SECONDS</TargetRecoveryTimeUnit>
-    <IsChangeTrackingOn>False</IsChangeTrackingOn>
+    <IsChangeTrackingOn>True</IsChangeTrackingOn>
     <IsChangeTrackingAutoCleanupOn>True</IsChangeTrackingAutoCleanupOn>
-    <ChangeTrackingRetentionPeriod>2</ChangeTrackingRetentionPeriod>
+    <ChangeTrackingRetentionPeriod>365</ChangeTrackingRetentionPeriod>
     <ChangeTrackingRetentionUnit>Days</ChangeTrackingRetentionUnit>
     <IsEncryptionOn>False</IsEncryptionOn>
     <IsBrokerPriorityHonored>False</IsBrokerPriorityHonored>
-    <Trustworthy>False</Trustworthy>
+    <Trustworthy>True</Trustworthy>
     <AutoUpdateStatisticsAsynchronously>False</AutoUpdateStatisticsAsynchronously>
     <PageVerify>CHECKSUM</PageVerify>
     <ServiceBrokerOption>DisableBroker</ServiceBrokerOption>
@@ -110,6 +110,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DataRetentionEnabled>False</DataRetentionEnabled>
+    <PlatformTarget>x64</PlatformTarget>
+    <DocumentationFile>bin\Debug\DnDHelper.db.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
