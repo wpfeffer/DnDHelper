@@ -1,9 +1,4 @@
-﻿//The following sample uses the Cryptography class to simulate the roll of a dice.
-
-using System;
-using System.IO;
-using System.Text;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 
 namespace DnDHelper
 {
@@ -27,7 +22,7 @@ namespace DnDHelper
 
             byte[] randomNumber = new byte[1];
             do
-            {
+            { 
                 rngCsp.GetBytes(randomNumber);
             }
             while (!IsFairRoll(randomNumber[0], numberSides));
