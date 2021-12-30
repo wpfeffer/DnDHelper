@@ -7,7 +7,6 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <Platforms>AnyCPU;x64</Platforms>
-    <ApplicationIcon>kisspng-dungeons-dragons-unearthed-arcana-role-playing-g-typing-5ac4ab9a4f2759.5726162215228384263242.png</ApplicationIcon>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <DocumentationFile>D:\SourceCode\DnDHelper\DnDHelper\Documentation.xml</DocumentationFile>
     <Company>Bits, Nybbles &amp; Bytes</Company>
