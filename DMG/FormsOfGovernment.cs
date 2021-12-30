@@ -1,0 +1,112 @@
+﻿namespace DMG
+{
+    public static class FormsOfGovernment
+    {
+        public static List<FormOfGovernment> Governments = new();
+
+        static FormsOfGovernment()
+        {
+            Governments.Add(new FormOfGovernment(0, string.Empty, string.Empty));
+            Governments.Add(new FormOfGovernment(1, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(2, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(3, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(4, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(5, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(6, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(7, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(8, "Autocracy", "One hereditary ruler wields absolute power. The autocrat either is supported by a well-developed bureaucracy or military or stands as the only authority in an otherwise anarchic society. The dynastic ruler could be immortal or undead. Aundair and Karrnath, two kingdoms in the Eberron campaign setting, have autocrats with royal blood in their veins. Whereas Queen Aurala of Aundair relies on wizards and spies to enforce her will. Kaius, the vampire king of Karrnath, has a formidable army of living and undead soldiers under his command."));
+            Governments.Add(new FormOfGovernment(9, "Bureaucracy", "Various departments compose the government, each responsible for an aspect of rule. The department heads, ministers, or secretaries answer to a figurehead autocrat or council."));
+            Governments.Add(new FormOfGovernment(10, "Bureaucracy", "Various departments compose the government, each responsible for an aspect of rule. The department heads, ministers, or secretaries answer to a figurehead autocrat or council."));
+            Governments.Add(new FormOfGovernment(11, "Bureaucracy", "Various departments compose the government, each responsible for an aspect of rule. The department heads, ministers, or secretaries answer to a figurehead autocrat or council."));
+            Governments.Add(new FormOfGovernment(12, "Bureaucracy", "Various departments compose the government, each responsible for an aspect of rule. The department heads, ministers, or secretaries answer to a figurehead autocrat or council."));
+            Governments.Add(new FormOfGovernment(13, "Bureaucracy", "Various departments compose the government, each responsible for an aspect of rule. The department heads, ministers, or secretaries answer to a figurehead autocrat or council."));
+            Governments.Add(new FormOfGovernment(14, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(15, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(16, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(17, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(18, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(19, "Confederacy", "Each individual city or town within the confederacy governs itself, but all contribute to a league or federation that promotes (at least in theory) the common good of all member states. Conditions and attitudes toward the central government vary from place to place within the confederacy. The Lords' Alliance in the Forgotten Realms setting is a loose confederacy of cities, while the Mror Holds in the Eberron campaign setting is a confederacy of allied dwarf clans."));
+            Governments.Add(new FormOfGovernment(20, "Democracy", "Citizens or their elected representatives determine the laws in a democracy. A bureaucracy or military carries out the day-to-day work of government, with positions filled through open elections."));
+            Governments.Add(new FormOfGovernment(21, "Democracy", "Citizens or their elected representatives determine the laws in a democracy. A bureaucracy or military carries out the day-to-day work of government, with positions filled through open elections."));
+            Governments.Add(new FormOfGovernment(22, "Democracy", "Citizens or their elected representatives determine the laws in a democracy. A bureaucracy or military carries out the day-to-day work of government, with positions filled through open elections."));
+            Governments.Add(new FormOfGovernment(23, "Dictatorship", "One supreme ruler holds absolute authority, but his or her rule isn't necessarily dynastic. In other respects this resembles an autocracy. In the Greyahwk campaign setting, a half-demon named Iuz is the dictator of a conquered land that bears his name."));
+            Governments.Add(new FormOfGovernment(24, "Dictatorship", "One supreme ruler holds absolute authority, but his or her rule isn't necessarily dynastic. In other respects this resembles an autocracy. In the Greyahwk campaign setting, a half-demon named Iuz is the dictator of a conquered land that bears his name."));
+            Governments.Add(new FormOfGovernment(25, "Dictatorship", "One supreme ruler holds absolute authority, but his or her rule isn't necessarily dynastic. In other respects this resembles an autocracy. In the Greyahwk campaign setting, a half-demon named Iuz is the dictator of a conquered land that bears his name."));
+            Governments.Add(new FormOfGovernment(26, "Dictatorship", "One supreme ruler holds absolute authority, but his or her rule isn't necessarily dynastic. In other respects this resembles an autocracy. In the Greyahwk campaign setting, a half-demon named Iuz is the dictator of a conquered land that bears his name."));
+            Governments.Add(new FormOfGovernment(27, "Dictatorship", "One supreme ruler holds absolute authority, but his or her rule isn't necessarily dynastic. In other respects this resembles an autocracy. In the Greyahwk campaign setting, a half-demon named Iuz is the dictator of a conquered land that bears his name."));
+            Governments.Add(new FormOfGovernment(28, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(29, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(30, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(31, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(32, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(33, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(34, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(35, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(36, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(37, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(38, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(39, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(40, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(41, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(42, "Feudalism", "The typical government of Europe in the Middle Ages, a feudalistic society consists of layers of lords and vassals. The vassals provide soldiers or scutage (payment in lieu of military service) to the lords, who in turn promise protection to their vassals."));
+            Governments.Add(new FormOfGovernment(43, "Gerontocracy", ""));
+            Governments.Add(new FormOfGovernment(44, "Gerontocracy", ""));
+            Governments.Add(new FormOfGovernment(45, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(46, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(47, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(48, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(49, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(50, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(51, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(52, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(53, "Hierarchy", ""));
+            Governments.Add(new FormOfGovernment(54, "Magocracy", ""));
+            Governments.Add(new FormOfGovernment(55, "Magocracy", ""));
+            Governments.Add(new FormOfGovernment(56, "Magocracy", ""));
+            Governments.Add(new FormOfGovernment(57, "Matriarchy", ""));
+            Governments.Add(new FormOfGovernment(58, "Matriarchy", ""));
+            Governments.Add(new FormOfGovernment(59, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(60, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(61, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(62, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(63, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(64, "Militocracy", ""));
+            Governments.Add(new FormOfGovernment(65, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(66, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(67, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(68, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(69, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(70, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(71, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(72, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(73, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(74, "Monarchy", ""));
+            Governments.Add(new FormOfGovernment(75, "Oligarchy", ""));
+            Governments.Add(new FormOfGovernment(76, "Oligarchy", ""));
+            Governments.Add(new FormOfGovernment(77, "Oligarchy", ""));
+            Governments.Add(new FormOfGovernment(78, "Oligarchy", ""));
+            Governments.Add(new FormOfGovernment(79, "Patriarchy", ""));
+            Governments.Add(new FormOfGovernment(80, "Patriarchy", ""));
+            Governments.Add(new FormOfGovernment(81, "Meritocracy", ""));
+            Governments.Add(new FormOfGovernment(82, "Meritocracy", ""));
+            Governments.Add(new FormOfGovernment(83, "Meritocracy", ""));
+            Governments.Add(new FormOfGovernment(84, "Plutocracy", ""));
+            Governments.Add(new FormOfGovernment(85, "Plutocracy", ""));
+            Governments.Add(new FormOfGovernment(86, "Republic", ""));
+            Governments.Add(new FormOfGovernment(87, "Republic", ""));
+            Governments.Add(new FormOfGovernment(88, "Republic", ""));
+            Governments.Add(new FormOfGovernment(89, "Republic", ""));
+            Governments.Add(new FormOfGovernment(90, "Republic", ""));
+            Governments.Add(new FormOfGovernment(91, "Republic", ""));
+            Governments.Add(new FormOfGovernment(92, "Republic", ""));
+            Governments.Add(new FormOfGovernment(93, "Satarpy", ""));
+            Governments.Add(new FormOfGovernment(94, "Satarpy", ""));
+            Governments.Add(new FormOfGovernment(95, "Kleptocracy", ""));
+            Governments.Add(new FormOfGovernment(96, "Theocracy", ""));
+            Governments.Add(new FormOfGovernment(97, "Theocracy", ""));
+            Governments.Add(new FormOfGovernment(98, "Theocracy", ""));
+            Governments.Add(new FormOfGovernment(99, "Theocracy", ""));
+            Governments.Add(new FormOfGovernment(100, "Theocracy", ""));
+        }
+    }
+}
