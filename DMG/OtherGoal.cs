@@ -1,14 +1,15 @@
 ﻿namespace DMG;
 
-public class WildernessGoal
+public class OtherGoal
 {
     private readonly int _roll;
     private readonly string _goal;
 
     public int Roll => _roll;
+
     public string Goal => _goal;
 
-    public WildernessGoal(int roll, string goal)
+    public OtherGoal(int roll, string goal)
     {
         _roll = roll;
         _goal = goal;

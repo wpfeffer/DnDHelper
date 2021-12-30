@@ -2,19 +2,16 @@
 {
     public class InvadingForce
     {
-        public int Roll { get; set; }
-        public string Force { get; set; }
+        private readonly int _roll;
+        private readonly string _force;
 
-        public InvadingForce()
-        {
-            Roll = 0;
-            Force = string.Empty;
-        }
+        public int Roll => _roll;
+        public string Force => _force;
 
         public InvadingForce(int roll, string force)
         {
-            Roll = roll;
-            Force = force;
+            _roll = roll;
+            _force = force;
         }
     }
 }

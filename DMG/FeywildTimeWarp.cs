@@ -2,18 +2,15 @@
 
 public class FeywildTimeWarp
 {
-    public int Roll { get; set; }
-    public string Result { get; set; }
+    private readonly int _roll;
+    private readonly string _result;
 
-    public FeywildTimeWarp()
-    {
-        Roll = 0;
-        Result = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Result => _result;
 
     public FeywildTimeWarp(int roll, string result)
     {
-        Roll = roll;
-        Result = result;
+        _roll = roll;
+        _result = result;
     }
 }

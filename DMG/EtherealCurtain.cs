@@ -2,21 +2,18 @@
 
 public class EtherealCurtain
 {
-    public int Roll { get; set; }
-    public string Plane { get; set; }
-    public string Color { get; set; }
+    private readonly int _roll;
+    private readonly string _plane;
+    private readonly string _color;
 
-    public EtherealCurtain()
-    {
-        Roll = 0;
-        Plane = string.Empty;
-        Color = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Plane => _plane;
+    public string Color => _color;
 
     public EtherealCurtain(int roll, string plane, string color)
     {
-        Roll = roll;
-        Plane = plane;
-        Color = color;
+        _roll = roll;
+        _plane = plane;
+        _color = color;
     }
 }

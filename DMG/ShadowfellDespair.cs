@@ -2,18 +2,15 @@
 
 public class ShadowfellDespair
 {
-    public int Roll { get; set; }
-    public string Effect { get; set; }
+    private readonly int _roll;
+    private readonly string _effect;
 
-    public ShadowfellDespair()
-    {
-        Roll = 0;
-        Effect = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Effect => _effect;
 
     public ShadowfellDespair(int roll, string effect)
     {
-        Roll = roll;
-        Effect = effect;
+        _roll = roll;
+        _effect = effect;
     }
 }

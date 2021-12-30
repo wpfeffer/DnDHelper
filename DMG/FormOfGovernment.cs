@@ -2,22 +2,19 @@
 {
     public class FormOfGovernment
     {
-        public int Roll { get; set; }
-        public string Government { get; set; }
-        public string Description { get; set; }
+        private readonly int _roll;
+        private readonly string _government;
+        private readonly string _description;
 
-        public FormOfGovernment()
-        {
-            Roll = 0;
-            Government = string.Empty;
-            Description = string.Empty;
-        }
+        public int Roll => _roll;
+        public string Government => _government;
+        public string Description => _description;
 
         public FormOfGovernment(int roll, string government, string description)
         {
-            Roll = roll;
-            Government = government;
-            Description = description;
+            _roll = roll;
+            _government = government;
+            _description = description;
         }
     }
 }

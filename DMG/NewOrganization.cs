@@ -2,18 +2,15 @@
 
 public class NewOrganization
 {
-    public int Roll { get; set; }
-    public string Organization { get; set; }
+    private readonly int _roll;
+    private readonly string _organization;
 
-    public NewOrganization()
-    {
-        Roll = 0;
-        Organization = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Organization => _organization;
 
     public NewOrganization(int roll, string organization)
     {
-        Roll = roll;
-        Organization = organization;
+        _roll = roll;
+        _organization = organization;
     }
 }

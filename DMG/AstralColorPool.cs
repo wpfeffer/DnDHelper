@@ -2,21 +2,18 @@
 
 public class AstralColorPool
 {
-    public int Roll { get; set; }
-    public string Plane { get; set; }
-    public string PoolColor { get; set; }
+    private readonly int _roll;
+    private readonly string _plane;
+    private readonly string _poolColor;
 
-    public AstralColorPool()
-    {
-        Roll = 0;
-        Plane = string.Empty;
-        PoolColor = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Plane => _plane;
+    public string PoolColor => _poolColor;
 
     public AstralColorPool(int roll, string plane, string poolColor)
     {
-        Roll = roll;
-        Plane = plane;
-        PoolColor = poolColor;
+        _roll = roll;
+        _plane = plane;
+        _poolColor = poolColor;
     }
 }

@@ -2,18 +2,15 @@
 
 public class DungeonGoal
 {
-    public int Roll { get; set; }
-    public string Goal { get; set; }
+    private readonly int _roll;
+    private readonly string _goal;
 
-    public DungeonGoal()
-    {
-        Roll = 0;
-        Goal = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Goal => _goal;
 
     public DungeonGoal(int roll, string goal)
     {
-        Roll = roll;
-        Goal = goal;
+        _roll = roll;
+        _goal = goal;
     }
 }

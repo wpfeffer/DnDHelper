@@ -2,18 +2,15 @@
 
 public class Discovery
 {
-    public int Roll { get; set; }
-    public string _Discovery { get; set; }
+    private readonly int _roll;
+    private readonly string _discovery;
 
-    public Discovery()
-    {
-        Roll = 0;
-        _Discovery = string.Empty;
-    }
+    public int Roll => _roll;
+    public string _Discovery => _discovery;
 
     public Discovery(int roll, string discovery)
     {
-        Roll = roll;
-        _Discovery = discovery;
+        _roll = roll;
+        _discovery = discovery;
     }
 }

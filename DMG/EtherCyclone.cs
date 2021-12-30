@@ -2,18 +2,15 @@
 
 public class EtherCyclone
 {
-    public int Roll { get; set; }
-    public string Effect { get; set; }
+    private readonly int _roll;
+    private readonly string _effect;
 
-    public EtherCyclone()
-    {
-        Roll = 0;
-        Effect = string.Empty;
-    }
+    public int Roll => _roll;
+    public string Effect => _effect;
 
     public EtherCyclone(int roll, string effect)
     {
-        Roll = roll;
-        Effect = effect;
+        _roll = roll;
+        _effect = effect;
     }
 }

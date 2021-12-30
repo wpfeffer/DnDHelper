@@ -2,19 +2,16 @@
 {
     public class WorldShakingEvent
     {
-        public int Roll { get; set; }
-        public string Event { get; set; }
+        private readonly int _roll;
+        private readonly string _event;
 
-        public WorldShakingEvent()
-        {
-            Roll = 0;
-            Event = string.Empty;
-        }
+        public int Roll => _roll;
+        public string Event => _event;
 
-        public WorldShakingEvent(int roll, string _event)
+        public WorldShakingEvent(int roll, string __event)
         {
-            Roll = roll;
-            Event = _event;
+            _roll = roll;
+            _event = __event;
         }
     }
 }

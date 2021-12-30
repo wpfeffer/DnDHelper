@@ -2,19 +2,16 @@
 {
     public class CataclysmicDisaster
     {
-        public int Roll { get; set; }
-        public string Disaster { get; set; }
+        private readonly int _roll;
+        private readonly string _disaster;
 
-        public CataclysmicDisaster()
-        {
-            Roll = 0;
-            Disaster = string.Empty;
-        }
+        public int Roll => _roll;
+        public string Disaster => _disaster;
 
         public CataclysmicDisaster(int roll, string disaster)
         {
-            Roll = roll;
-            Disaster = disaster;
+            _roll = roll;
+            _disaster = disaster;
         }
     }
 }
