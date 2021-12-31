@@ -44,6 +44,23 @@
             <returns>Returns a random number between 1 and numberSides.</returns>
             <exception cref="T:System.ArgumentOutOfRangeException">Throws this exception if the numberSides passed in is less than or equal to 0.</exception>
         </member>
+        <member name="F:DnDHelper.DMG.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DnDHelper.DMG.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DnDHelper.DMG.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:DnDHelper.Form1">
             <summary>
             The primary WinForm

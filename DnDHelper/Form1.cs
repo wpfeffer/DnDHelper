@@ -12,5 +12,11 @@ namespace DnDHelper
         {
             InitializeComponent();
         }
+
+        private void worldBuildingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var dmg = new DMG();
+            dmg.Show();
+        }
     }
 }

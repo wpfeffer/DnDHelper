@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GodsGoddesses>
+	<God Name="Asmodeus">
+		<Of>Tyranny</Of>
+		<Alignment>LE</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+		</Domains>
+		<Symbol>Three triangles in tight formation.</Symbol>
+	</God>
+	<Goddess Name="Avandra">
+		<Of>Change and Luck</Of>
+		<Alignment>CG</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+		</Domains>
+		<Symbol>Three stacked wavy lines.</Symbol>
+	</Goddess>
+	<God Name="Bahamut">
+		<Of>Justice and Nobility</Of>
+		<Alignment>LG</Alignment>
+		<Domains>
+			<Domain>Life</Domain>
+			<Domain>War</Domain>
+		</Domains>
+		<Symbol>Dragon's head, in profile, facing left</Symbol>
+	</God>
+	<God Name="Bane">
+		<Of>War and Conquest</Of>
+		<Alignment>LE</Alignment>
+		<Domains>
+			<Domain>War</Domain>
+		</Domains>
+		<Symbol>Claw with three talons pointing down</Symbol>
+	</God>
+	<God Name="Corellon">
+		<Of>Magic and the Arts</Of>
+		<Alignment>CG</Alignment>
+		<Domains>
+			<Domain>Light</Domain>
+		</Domains>
+		<Symbol>Eight-pointed Star</Symbol>
+	</God>
+	<Goddess Name="Erathis">
+		<Of>Civilization and Invention</Of>
+		<Alignment>LN</Alignment>
+		<Domains>
+			<Domain>Knowledge</Domain>
+		</Domains>
+		<Symbol>Upper Half of a Clockwork Gear</Symbol>
+	</Goddess>
+	<God Name="Gruumsh">
+		<Of>Destruction</Of>
+		<Alignment>CE</Alignment>
+		<Domains>
+			<Domain>Tempest</Domain>
+			<Domain>WarK</Domain>
+		</Domains>
+		<Symbol>Triangular Eye with Bony Protusions</Symbol>
+	</God>
+	<Goddess Name="Ioun">
+		<Of>Knowledge</Of>
+		<Alignment>N</Alignment>
+		<Domains>
+			<Domain>Knowledge</Domain>
+		</Domains>
+		<Symbol>Crook Shaped Like A Stylized Eye</Symbol>
+	</Goddess>
+	<God Name="Kord">
+		<Of>Strength and Storms</Of>
+		<Alignment>CN</Alignment>
+		<Domains>
+			<Domain>Tempest</Domain>
+		</Domains>
+		<Symbol>Sword with a Lightning Bold Cross Guard</Symbol>
+	</God>
+	<Goddess Name="Lolth">
+		<Of>Spiders and Lies</Of>
+		<Alignment>CE</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+		</Domains>
+		<Symbol>Eight-pointed Star with a Web Motif</Symbol>
+	</Goddess>
+	<Goddess Name="Melora">
+		<Of>Wilderness and Sea</Of>
+		<Alignment>N</Alignment>
+		<Domains>
+			<Domain>Nature</Domain>
+			<Domain>Tempest</Domain>
+		</Domains>
+		<Symbol>Wavelike Swirl</Symbol>
+	</Goddess>
+	<God Name="Moradin">
+		<Of>Creation</Of>
+		<Alignment>LG</Alignment>
+		<Domains>
+			<Domain>Knowledge</Domain>
+			<Domain>War</Domain>
+		</Domains>
+		<Symbol>Flaming Anvil</Symbol>
+	</God>
+	<God Name="Pelor">
+		<Of>Sun and Agriculture</Of>
+		<Alignment>NG</Alignment>
+		<Domains>
+			<Domain>Life</Domain>
+			<Domain>Light</Domain>
+		</Domains>
+		<Symbol>Circle with Six Outwardly Radiating Points</Symbol>
+	</God>
+	<Goddess Name="Raven Queen">
+		<Of>Death</Of>
+		<Alignment>LN</Alignment>
+		<Domains>
+			<Domain>Life</Domain>
+			<Domain>Death</Domain>
+		</Domains>
+		<Symbol>Raven's Head, In Profile, Facing Left</Symbol>
+	</Goddess>
+	<Goddess Name="Sehanine">
+		<Of>The Moon</Of>
+		<Alignment>CG</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+		</Domains>
+		<Symbol>Crescent Moon</Symbol>
+	</Goddess>
+	<God Name="Tharizdun">
+		<Of>Madness</Of>
+		<Alignment>CE</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+		</Domains>
+		<Symbol>Jagged Counter-Clockwise Spiral</Symbol>
+	</God>
+	<Goddess Name="Tiamat">
+		<Of>Wealth, Greed, and Vengeance</Of>
+		<Alignment>LE</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+			<Domain>War</Domain>
+		</Domains>
+		<Symbol>Five-Pointed Star with Curved Points</Symbol>
+	</Goddess>
+	<God Name="Torog">
+		<Of>The Underdark</Of>
+		<Alignment>NE</Alignment>
+		<Domains>
+			<Domain>Death</Domain>
+		</Domains>
+		<Symbol>T Attached to a Circular Shackle</Symbol>
+	</God>
+	<God Name="Vecna">
+		<Of>Evil Secrets</Of>
+		<Alignment>NE</Alignment>
+		<Domains>
+			<Domain>Death</Domain>
+			<Domain>Knowledge</Domain>
+		</Domains>
+		<Symbol>Partially Shattered One-Eyed Skull</Symbol>
+	</God>
+	<God Name="Zehir">
+		<Of>Darkness and Poison</Of>
+		<Alignment>CE</Alignment>
+		<Domains>
+			<Domain>Trickery</Domain>
+			<Domain>Death</Domain>
+		</Domains>
+		<Symbol>Snake In The Shape Of A Dagger</Symbol>
+	</God>
+</GodsGoddesses>

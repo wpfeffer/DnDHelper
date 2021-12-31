@@ -65,6 +65,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DMG\DungeonMastersGuide.csproj" />
+    <ProjectReference Include="..\RandomTables\RandomTables.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnDHelper", "DnDHelper\DnDHelper.csproj", "{4115DAB4-4A5C-472E-92FB-94B0CCF93244}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973} = {2E8D4B90-8656-429C-8AEF-EF3C5605B973}
-	EndProjectSection
-EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DnDHelper.db", "DnDHelper.db\DnDHelper.db.sqlproj", "{2E8D4B90-8656-429C-8AEF-EF3C5605B973}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomTables", "RandomTables\RandomTables.csproj", "{5D826E1B-18FA-433B-B679-A0A0FADD1D16}"
 EndProject
@@ -30,18 +25,6 @@ Global
 		{4115DAB4-4A5C-472E-92FB-94B0CCF93244}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4115DAB4-4A5C-472E-92FB-94B0CCF93244}.Release|x64.ActiveCfg = Release|x64
 		{4115DAB4-4A5C-472E-92FB-94B0CCF93244}.Release|x64.Build.0 = Release|x64
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|x64.Build.0 = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Debug|x64.Deploy.0 = Debug|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|x64.ActiveCfg = Release|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|x64.Build.0 = Release|Any CPU
-		{2E8D4B90-8656-429C-8AEF-EF3C5605B973}.Release|x64.Deploy.0 = Release|Any CPU
 		{5D826E1B-18FA-433B-B679-A0A0FADD1D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5D826E1B-18FA-433B-B679-A0A0FADD1D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D826E1B-18FA-433B-B679-A0A0FADD1D16}.Debug|x64.ActiveCfg = Debug|Any CPU
