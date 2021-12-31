@@ -1,16 +1,17 @@
-﻿namespace DMG;
-
-public class NewOrganization
+﻿namespace DungeonMastersGuide
 {
-    private readonly int _roll;
-    private readonly string _organization;
-
-    public int Roll => _roll;
-    public string Organization => _organization;
-
-    public NewOrganization(int roll, string organization)
+    public class NewOrganization
     {
-        _roll = roll;
-        _organization = organization;
+        private readonly int _roll;
+        private readonly string _organization;
+
+        public int Roll => _roll;
+        public string Organization => _organization;
+
+        public NewOrganization(int roll, string organization)
+        {
+            _roll = roll;
+            _organization = organization;
+        }
     }
 }

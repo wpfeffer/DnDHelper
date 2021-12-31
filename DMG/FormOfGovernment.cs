@@ -1,4 +1,4 @@
-﻿namespace DMG
+﻿namespace DungeonMastersGuide
 {
     public class FormOfGovernment
     {

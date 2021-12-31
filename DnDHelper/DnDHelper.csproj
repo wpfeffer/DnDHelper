@@ -63,4 +63,8 @@
     <Folder Include="Resources\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DMG\DungeonMastersGuide.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,16 +1,17 @@
-﻿namespace DMG;
-
-public class ExtinctionOrDepletion
+﻿namespace DungeonMastersGuide
 {
-    private readonly int _roll;
-    private readonly string _extinctionDepletion;
-
-    public int Roll => _roll;
-    public string ExtinctionDepletion => _extinctionDepletion;
-
-    public ExtinctionOrDepletion(int roll, string extinctionDepletion)
+    public class ExtinctionOrDepletion
     {
-        _roll = roll;
-        _extinctionDepletion = extinctionDepletion;
+        private readonly int _roll;
+        private readonly string _extinctionDepletion;
+
+        public int Roll => _roll;
+        public string ExtinctionDepletion => _extinctionDepletion;
+
+        public ExtinctionOrDepletion(int roll, string extinctionDepletion)
+        {
+            _roll = roll;
+            _extinctionDepletion = extinctionDepletion;
+        }
     }
 }

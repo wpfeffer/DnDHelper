@@ -12,7 +12,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DnDHelper.db", "DnDHelper.d
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomTables", "RandomTables\RandomTables.csproj", "{5D826E1B-18FA-433B-B679-A0A0FADD1D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMG", "DMG\DMG.csproj", "{6E5F93A1-F6A7-4506-AF10-93797BB2A672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DungeonMastersGuide", "DMG\DungeonMastersGuide.csproj", "{6E5F93A1-F6A7-4506-AF10-93797BB2A672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,2 +1,1 @@
-#Dungeons & Dragons Helper
-An application to help D&D players and DMs.
+#The Dungeon Master\'s Guide

@@ -1,4 +1,4 @@
-﻿namespace DMG.PsychicWindEffects
+﻿namespace DungeonMastersGuide.PsychicWindEffects
 {
     public class LocationEffect
     {

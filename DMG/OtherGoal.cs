@@ -1,17 +1,18 @@
-﻿namespace DMG;
-
-public class OtherGoal
+﻿namespace DungeonMastersGuide
 {
-    private readonly int _roll;
-    private readonly string _goal;
-
-    public int Roll => _roll;
-
-    public string Goal => _goal;
-
-    public OtherGoal(int roll, string goal)
+    public class OtherGoal
     {
-        _roll = roll;
-        _goal = goal;
+        private readonly int _roll;
+        private readonly string _goal;
+
+        public int Roll => _roll;
+
+        public string Goal => _goal;
+
+        public OtherGoal(int roll, string goal)
+        {
+            _roll = roll;
+            _goal = goal;
+        }
     }
 }

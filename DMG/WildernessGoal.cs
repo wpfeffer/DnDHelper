@@ -1,16 +1,17 @@
-﻿namespace DMG;
-
-public class WildernessGoal
+﻿namespace DungeonMastersGuide
 {
-    private readonly int _roll;
-    private readonly string _goal;
-
-    public int Roll => _roll;
-    public string Goal => _goal;
-
-    public WildernessGoal(int roll, string goal)
+    public class WildernessGoal
     {
-        _roll = roll;
-        _goal = goal;
+        private readonly int _roll;
+        private readonly string _goal;
+
+        public int Roll => _roll;
+        public string Goal => _goal;
+
+        public WildernessGoal(int roll, string goal)
+        {
+            _roll = roll;
+            _goal = goal;
+        }
     }
 }

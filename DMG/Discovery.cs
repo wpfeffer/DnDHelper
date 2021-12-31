@@ -1,16 +1,17 @@
-﻿namespace DMG;
-
-public class Discovery
+﻿namespace DungeonMastersGuide
 {
-    private readonly int _roll;
-    private readonly string _discovery;
-
-    public int Roll => _roll;
-    public string _Discovery => _discovery;
-
-    public Discovery(int roll, string discovery)
+    public class Discovery
     {
-        _roll = roll;
-        _discovery = discovery;
+        private readonly int _roll;
+        private readonly string _discovery;
+
+        public int Roll => _roll;
+        public string _Discovery => _discovery;
+
+        public Discovery(int roll, string discovery)
+        {
+            _roll = roll;
+            _discovery = discovery;
+        }
     }
 }
