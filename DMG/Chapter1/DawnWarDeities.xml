@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GodsGoddesses>
+<DawnWarDeities>
 	<God Name="Asmodeus">
 		<Of>Tyranny</Of>
 		<Alignment>LE</Alignment>
@@ -169,4 +169,4 @@
 		</Domains>
 		<Symbol>Snake In The Shape Of A Dagger</Symbol>
 	</God>
-</GodsGoddesses>
+</DawnWarDeities>
