@@ -1,17 +1,16 @@
-﻿namespace DungeonMastersGuide.Chapter1
+﻿namespace DungeonMastersGuide.Chapter1;
+
+public class InvadingForce
 {
-    public class InvadingForce
+    private readonly int _roll;
+    private readonly string _force;
+
+    public int Roll => _roll;
+    public string Force => _force;
+
+    public InvadingForce(int roll, string force)
     {
-        private readonly int _roll;
-        private readonly string _force;
-
-        public int Roll => _roll;
-        public string Force => _force;
-
-        public InvadingForce(int roll, string force)
-        {
-            _roll = roll;
-            _force = force;
-        }
+        _roll = roll;
+        _force = force;
     }
 }

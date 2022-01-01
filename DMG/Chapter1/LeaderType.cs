@@ -1,18 +1,17 @@
-﻿namespace DungeonMastersGuide.Chapter1
+﻿namespace DungeonMastersGuide.Chapter1;
+
+public class LeaderType
 {
-    public class LeaderType
+    private readonly int _roll;
+    private readonly string _type;
+
+    public int Roll => _roll;
+
+    public string Type => _type;
+
+    public LeaderType(int roll, string type)
     {
-        private readonly int _roll;
-        private readonly string _type;
-
-        public int Roll => _roll;
-
-        public string Type => _type;
-
-        public LeaderType(int roll, string type)
-        {
-            _roll = roll;
-            _type = type;
-        }
+        _roll = roll;
+        _type = type;
     }
 }
