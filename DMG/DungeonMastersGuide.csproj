@@ -17,6 +17,10 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/wpfeffer/DnDHelper</RepositoryUrl>
     <PackageTags>Dungeon Masters Guide;Dungeons and Dragons</PackageTags>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <UseWPF>True</UseWPF>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">

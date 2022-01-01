@@ -1,4 +1,4 @@
-namespace DnDHelper
+namespace DMG.win
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace DnDHelper
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Main());
+            Application.Run(new Form1());
         }
     }
 }
