@@ -24,9 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Chapter1\DawnWarDeities.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="README.md">
       <PackagePath>\</PackagePath>
       <Pack>True</Pack>

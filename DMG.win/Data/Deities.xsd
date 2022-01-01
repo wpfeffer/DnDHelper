@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Deities">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="God">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Of" type="xs:string" />
+								<xs:element name="Alignment" type="xs:string" />
+								<xs:element name="Domains">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element maxOccurs="unbounded" name="Domain" type="xs:string" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Symbol" type="xs:string" />
+							</xs:sequence>
+							<xs:attribute name="Name" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Goddess">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Of" type="xs:string" />
+								<xs:element name="Alignment" type="xs:string" />
+								<xs:element name="Domains">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element maxOccurs="unbounded" name="Domain" type="xs:string" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Symbol" type="xs:string" />
+							</xs:sequence>
+							<xs:attribute name="Name" type="xs:string" use="required" />
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

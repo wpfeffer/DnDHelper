@@ -1,6 +1,6 @@
-﻿namespace DnDHelper
+﻿namespace DMG.win
 {
-    partial class CharacterGenerator
+    partial class GodGoddess
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // CharacterGenerator
+            // GodGoddess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1933, 1350);
-            this.Name = "CharacterGenerator";
-            this.Text = "Character Generator";
+            this.ClientSize = new System.Drawing.Size(2527, 1460);
+            this.Name = "GodGoddess";
+            this.Text = "God & Goddess Editing";
             this.ResumeLayout(false);
 
         }
