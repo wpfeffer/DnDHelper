@@ -1,4 +1,4 @@
-namespace DMG.win
+namespace DMG
 {
     internal static class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace DMG.win
+﻿namespace DMG
 {
     partial class GodGoddess
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.SuspendLayout();
             // 
             // GodGoddess
@@ -38,9 +39,7 @@
             this.Name = "GodGoddess";
             this.Text = "God & Goddess Editing";
             this.ResumeLayout(false);
-
         }
-
         #endregion
     }
 }

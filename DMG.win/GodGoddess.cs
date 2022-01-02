@@ -1,10 +1,8 @@
-﻿namespace DMG.win
+﻿namespace DMG;
+public partial class GodGoddess : Form
 {
-    public partial class GodGoddess : Form
+    public GodGoddess()
     {
-        public GodGoddess()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

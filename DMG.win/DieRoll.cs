@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace DMG.win
+namespace DMG
 {
     public static class DieRoll
     {

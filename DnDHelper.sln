@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomTables", "RandomTables\RandomTables.csproj", "{5D826E1B-18FA-433B-B679-A0A0FADD1D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMG.win", "DMG.win\DMG.win.csproj", "{C57A7125-3D40-4D1C-AD4D-B98B5786990A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMG", "DMG.win\DMG.csproj", "{C57A7125-3D40-4D1C-AD4D-B98B5786990A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
